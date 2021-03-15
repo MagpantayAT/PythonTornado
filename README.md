@@ -14,8 +14,12 @@ How to setup Python Tornado as backend webserver on Windows
 
 ### Step 4
 - Open Anaconda Prompt and navigate to the directory where the Python and HTML file located
-- then type in `python server.py' to run your server
+- then type in `python server.py` to run your server
 
 ### Step 5
-- Open a web browser and type `localhost:8881`
+- Open a web browser and type `localhost:8881` this will run the `basicRequestHandler` class
+- type in `localhost:8881/html` to load the HTML file under `staticRequestHandler` class
+- `localhost:8881/isEven?n=[some value]` to run `queryStringRequestHandler` class
+- `localhost:8881/resource/[some value]` to run `resourceRequestHandler` class
+- `localhost:8881/api` to run `callJSON` class which will return a JSON
 
