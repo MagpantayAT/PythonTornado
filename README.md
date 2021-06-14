@@ -3,6 +3,7 @@ How to setup Python Tornado as backend webserver on Windows. You may also like t
 
 ### Step 1
 - Install Anaconda on your computer (https://www.anaconda.com/)
+- You may watch (https://youtu.be/-63AWJPAzhM) for installing Anaconda Navigator
 
 ### Step 2
 - Run Anaconda Navigator then go to `Environment > Search Package > Tornado` then install
