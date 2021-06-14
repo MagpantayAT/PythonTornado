@@ -15,6 +15,12 @@ How to setup Python Tornado as backend webserver on Windows. You may also like t
 ### Step 4
 - Open Anaconda Prompt and navigate to the directory where the Python and HTML file located
 - then type in `python server.py` to run your server
+- in case you encounter `raise NotImplementedError NotImplementedError` just add the following codes:
+```
+import asyncio
+asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
+```
+(https://www.programmersought.com/article/49705560362/)
 
 ### Step 5
 - Open a web browser and type `localhost:8881` this will run the `basicRequestHandler` class
